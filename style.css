@@ -8,15 +8,12 @@
     background-color: #fff8f3;
     background-image: url(img/header_bg.png),url(img/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right,left;
-    padding-bottom: 150px;
-    
-    
+    background-position: bottom right,left;       
  }
  nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
  }
 .nav_title{
     font-size: 45px;
