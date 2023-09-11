@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+ /*  */
+ .header{
+    background-color: #fff8f3;
+    background-image: url(img/header_bg.png),url(img/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    padding-bottom: 150px;
+    
+    
+ }
+ nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+ }
+.nav_title{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text_color{
+    color:#fd6e0a;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+  
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.pri_btn{
+    /* width: 64px; */
+   padding:18px 35px ;
+   height: 64px;
+   background: #fd6e0a; 
+   border: 0;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 700;
+   border-radius: 5px;
+}
+.pri_btn:hover{
+    background: #fff;
+    border: 1px solid black;
+    color: #474747;
+}
+ 
+/* banner start */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner_info h3{
+    font-size: 40px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+.banner_info h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+     
+}
+.banner_info p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+.banner_img img{
+     /* width: 100%; */
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about start*/
+.about{
+    background-color:#fff8f3;
+    border-radius: 10px;
+    margin-top: 130px;
+    padding: 130px 156px;
+    text-align: center;
+}
+.section_title{
+    font-size: 40px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+    
+}
+.about_des{
+    font-size:18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.info_title{
+    font-size: 20px;
+    color: #474747;
+}
+.about_info{
+    border: 1px solid #F4C9C2;
+    background-color: #F4C9C2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+     transition:0.3s;
+}
+.info_dsc{
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+/* what i do */
+.what_do{
+    margin-top: 130px;
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap: 30px;
+}
+.skills{
+background: #F4C9C2;
+box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+padding: 30px;
+}
+.sk__title{
+ font-size: 20px;
+font-weight: 700;
+margin-top: 30px;
+margin-bottom: 20px;
+}
+.sk_dec{
+ color: #474747;
+}
+/* resume */
+.resume{
+    margin-top: 130px;
+    text-align: center;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume .title{
+font-size: 25px;
+font-weight: 700;
+color: #474747;
+margin-bottom: 10px;
+}
+.resume .sub_title{
+color: #757575;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 20px;
+}
+.resume .des{
+    color:#757575
+
+}
+.resume_item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.res_btn{
+    margin-top: 50px;
+    text-align: center;
+}
+/*  */
+.contact{
+ display: flex;
+ gap: 100px;
+ background: #FFF8F3;
+ padding: 130px 200px;
+}
+.contact .section_title{
+    text-align: left;
+}
+.contact input[type="text"],input[type ="email"],textarea{
+     margin-bottom: 24px;
+     border: 0;
+     width: 100%;
+     padding: 18px 30px;
+     colo
+}
+.c-des{
+    margin-bottom: 30px;
+}
+
+.contact a{
+    text-decoration: none;
+}
